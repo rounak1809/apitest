@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OxfordDictionary API Test Automation Suite">
+
+	<listeners>
+		<listener
+			class-name="com.dictionary.apitest.util.listner.ExtentListener" />
+	</listeners>
+	<test name="Check_ErrorCode_InvalidWord_Test">
+		<classes>
+			<class name="com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test"></class>
+		</classes>
+	</test>
+	<test name="Check_StatusCode_WordDefinations_ValidWord_Test">
+		<classes>
+			<class name="com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Check_ErrorCode_InvalidWord_Test Class Started..]]>
+    </line>
+    <line>
+      <![CDATA[validateResponseCodeandMessageforInvalidWord Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[validateResponseCodeandMessageforInvalidWord Test Passed..]]>
+    </line>
+    <line>
+      <![CDATA[Check_ErrorCode_InvalidWord_Test Test Finished..]]>
+    </line>
+    <line>
+      <![CDATA[Check_StatusCode_WordDefinations_ValidWord_Test Class Started..]]>
+    </line>
+    <line>
+      <![CDATA[validateResponseCodeandWordDefinationsforValidWord Test Started..]]>
+    </line>
+    <line>
+      <![CDATA[validateResponseCodeandWordDefinationsforValidWord Test Passed..]]>
+    </line>
+  </reporter-output>
+  <suite name="OxfordDictionary API Test Automation Suite" duration-ms="7617" started-at="2019-02-21T00:54:05Z" finished-at="2019-02-21T00:54:13Z">
+    <groups>
+    </groups>
+    <test name="Check_ErrorCode_InvalidWord_Test" duration-ms="4248" started-at="2019-02-21T00:54:05Z" finished-at="2019-02-21T00:54:09Z">
+      <class name="com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5]" name="beforeTest" is-config="true" duration-ms="4" started-at="2019-02-21T13:54:05Z" finished-at="2019-02-21T13:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUprequestSpecification()[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5]" name="setUprequestSpecification" is-config="true" duration-ms="491" started-at="2019-02-21T13:54:05Z" finished-at="2019-02-21T13:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUprequestSpecification -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5]" name="setUp" is-config="true" duration-ms="1" started-at="2019-02-21T13:54:05Z" finished-at="2019-02-21T13:54:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test.validateResponseCodeandMessageforInvalidWord()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateResponseCodeandMessageforInvalidWord()[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5]" name="validateResponseCodeandMessageforInvalidWord" duration-ms="3432" started-at="2019-02-21T13:54:05Z" finished-at="2019-02-21T13:54:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validateResponseCodeandMessageforInvalidWord Test Started..]]>
+            </line>
+            <line>
+              <![CDATA[validateResponseCodeandMessageforInvalidWord Test Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeandMessageforInvalidWord -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5]" name="tearDown" is-config="true" duration-ms="298" started-at="2019-02-21T13:54:09Z" finished-at="2019-02-21T13:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateResponseCodeandMessageforInvalidWord status=SUCCESS method=Check_ErrorCode_InvalidWord_Test.validateResponseCodeandMessageforInvalidWord()[pri:0, instance:com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test@6acdbdf5] output=validateResponseCodeandMessageforInvalidWord Test Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test -->
+    </test> <!-- Check_ErrorCode_InvalidWord_Test -->
+    <test name="Check_StatusCode_WordDefinations_ValidWord_Test" duration-ms="3339" started-at="2019-02-21T00:54:09Z" finished-at="2019-02-21T00:54:13Z">
+      <class name="com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="beforeSuite" is-config="true" duration-ms="162" started-at="2019-02-21T13:54:05Z" finished-at="2019-02-21T13:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-02-21T13:54:09Z" finished-at="2019-02-21T13:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUprequestSpecification()[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="setUprequestSpecification" is-config="true" duration-ms="6" started-at="2019-02-21T13:54:09Z" finished-at="2019-02-21T13:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUprequestSpecification -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="setUp" is-config="true" duration-ms="1" started-at="2019-02-21T13:54:09Z" finished-at="2019-02-21T13:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test.validateResponseCodeandWordDefinationsforValidWord()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateResponseCodeandWordDefinationsforValidWord()[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="validateResponseCodeandWordDefinationsforValidWord" duration-ms="3259" started-at="2019-02-21T13:54:09Z" finished-at="2019-02-21T13:54:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validateResponseCodeandWordDefinationsforValidWord Test Started..]]>
+            </line>
+            <line>
+              <![CDATA[validateResponseCodeandWordDefinationsforValidWord Test Passed..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateResponseCodeandWordDefinationsforValidWord -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973]" name="tearDown" is-config="true" duration-ms="63" started-at="2019-02-21T13:54:12Z" finished-at="2019-02-21T13:54:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateResponseCodeandWordDefinationsforValidWord status=SUCCESS method=Check_StatusCode_WordDefinations_ValidWord_Test.validateResponseCodeandWordDefinationsforValidWord()[pri:0, instance:com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test@34c4973] output=validateResponseCodeandWordDefinationsforValidWord Test Started..]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dictionary.apitest.Check_StatusCode_WordDefinations_ValidWord_Test -->
+    </test> <!-- Check_StatusCode_WordDefinations_ValidWord_Test -->
+  </suite> <!-- OxfordDictionary API Test Automation Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+{
+	"validateResponseCodeandWordDefinationsforValidWord": [
+		{
+			"word": "loving",
+			"source_lang": "en",
+			"status_code": "200",
+			"word_def_match1": "an intense feeling of deep affection",
+			"word_def_match2": "a great interest and pleasure in something",
+			"word_def_match3": "a person or thing that one loves",
+			"word_def_match4": "(in tennis, squash, and some other sports) a score of zero; nil",
+			"word_def_match5": "feel deep affection or sexual love for (someone)"
+		}
+	],
+	"validateResponseCodeandMessageforInvalidWord": [
+		{
+			"word": "shruro",
+			"source_lang": "en",
+			"status_code": "404"
+		}
+	]
+}

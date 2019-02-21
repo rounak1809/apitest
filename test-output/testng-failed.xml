@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUprequestSpecification"/>
+          <include name="validateResponseCodeandMessageforInvalidWord"/>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.dictionary.apitest.Check_ErrorCode_InvalidWord_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
