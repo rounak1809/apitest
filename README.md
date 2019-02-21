@@ -11,7 +11,7 @@ If you are working behind a proxy, ensure you work through the next section 'Dea
 
 ## Clone the Project from Git Repo
 * Open a command prompt and navigate to workspace where projects to be cloned
-    * type `git clone https://gitlab.com/rounak.anerao/`
+    * type `git clone https://github.com/rounak1809/apitest.git`
 
 * Open Eclipse and Import Project as an 'Existing Maven Projects'
 
